@@ -4,7 +4,6 @@
 //
 //  Created by Ashwin Pazhoor on 2/9/26.
 //
-
 import Foundation
 import Vision
 
@@ -14,7 +13,6 @@ struct Neighbor {
 }
 
 final class TriageClassifier {
-
     static func predict(
         query: VNFeaturePrintObservation,
         training: [(VNFeaturePrintObservation, KeepOrCutLabel)],
